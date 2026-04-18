@@ -47,7 +47,7 @@ public class ItemStonePolish : Item
             return false;
         }
 
-        Block? burnishedBlock = world.GetBlock(new AssetLocation("vsmineralmasonry", $"burnished-{rock}"));
+        Block? burnishedBlock = world.GetBlock(new AssetLocation("vsmineralmasonrycobblespaths", $"burnished-{rock}"));
         if (burnishedBlock == null || burnishedBlock.Id == 0)
         {
             return false;
