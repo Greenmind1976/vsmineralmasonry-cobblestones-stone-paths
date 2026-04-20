@@ -1,0 +1,28 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "ingot-*",
+    "name": "metal",
+    "allowedVariants": [
+      "copper",
+      "tinbronze",
+      "bismuthbronze",
+      "blackbronze",
+      "iron",
+      "meteoriciron",
+      "steel"
+    ]
+  },
+  "pattern": [
+    [
+      "_______#####____",
+      "_##########_____",
+      "_______#####____"
+    ]
+  ],
+  "name": "Pitching Tool",
+  "output": {
+    "type": "item",
+    "code": "vsmineralmasonrycobblespaths:pitchingtool-{metal}"
+  }
+}
