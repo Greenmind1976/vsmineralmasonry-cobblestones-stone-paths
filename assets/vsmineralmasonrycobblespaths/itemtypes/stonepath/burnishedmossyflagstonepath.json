@@ -24,7 +24,7 @@
   "texture": {
     "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-upface",
     "overlays": [
-      "vsmineralmasonry:block/stone/burnishedmossywall/{rock}-r1c3-upface"
+      "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-r1c3-upface"
     ]
   },
   "creativeinventory": {
