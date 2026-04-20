@@ -64,29 +64,29 @@
       "all": {
         "base": "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/transparent",
         "overlays": [
-          "vsmineralmasonry:block/stone/burnishedstonepath/{rock}1-{tile}",
-          "vsmineralmasonry:block/stone/burnishedstonepath/overlay-{tile}"
+          "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/{rock}1-{tile}",
+          "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/overlay-{tile}"
         ],
         "alternates": [
           {
             "base": "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/transparent",
             "overlays": [
-              "vsmineralmasonry:block/stone/burnishedstonepath/{rock}2-{tile}",
-              "vsmineralmasonry:block/stone/burnishedstonepath/overlay-{tile}"
+              "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/{rock}2-{tile}",
+              "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/overlay-{tile}"
             ]
           },
           {
             "base": "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/transparent",
             "overlays": [
-              "vsmineralmasonry:block/stone/burnishedstonepath/{rock}3-{tile}",
-              "vsmineralmasonry:block/stone/burnishedstonepath/overlay-{tile}"
+              "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/{rock}3-{tile}",
+              "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/overlay-{tile}"
             ]
           },
           {
             "base": "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/transparent",
             "overlays": [
-              "vsmineralmasonry:block/stone/burnishedstonepath/{rock}4-{tile}",
-              "vsmineralmasonry:block/stone/burnishedstonepath/overlay-{tile}"
+              "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/{rock}4-{tile}",
+              "vsmineralmasonrycobblespaths:block/stone/burnishedstonepath/overlay-{tile}"
             ]
           }
         ]
