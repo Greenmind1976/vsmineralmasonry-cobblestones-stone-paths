@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 
@@ -26,7 +27,13 @@ public class BlockStonePathDecorCycle : Block
             return false;
         }
 
-        return world.BlockAccessor.SetDecor(nextBlock, target.Position, target.DecorIndex);
+        bool placed = world.BlockAccessor.SetDecor(nextBlock, target.Position, target.DecorIndex);
+        if (placed)
+        {
+            RemoveDuplicatePathDecors(world, target.Position, target.DecorIndex, cycleBlock);
+        }
+
+        return placed;
     }
 
     public static void AutoAlignDecor3x3(IWorldAccessor world, DecorEditingHelper.DecorTarget target)
@@ -80,6 +87,36 @@ public class BlockStonePathDecorCycle : Block
         }
 
         return BasePath(ownCode.Path) == BasePath(otherCode.Path);
+    }
+
+    private static void RemoveDuplicatePathDecors(
+        IWorldAccessor world,
+        BlockPos position,
+        int decorIndex,
+        BlockStonePathDecorCycle cycleBlock)
+    {
+        var subDecors = world.BlockAccessor.GetSubDecors(position);
+        if (subDecors == null)
+        {
+            return;
+        }
+
+        int faceIndex = decorIndex % 6;
+        Block air = world.GetBlock(0);
+        List<int> duplicateIndexes = new();
+
+        foreach (var entry in subDecors)
+        {
+            if (entry.Key != decorIndex && entry.Key % 6 == faceIndex && IsSameSet(cycleBlock, entry.Value))
+            {
+                duplicateIndexes.Add(entry.Key);
+            }
+        }
+
+        foreach (int duplicateIndex in duplicateIndexes)
+        {
+            world.BlockAccessor.SetDecor(air, position, duplicateIndex);
+        }
     }
 
     private static string BasePath(string path)
