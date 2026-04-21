@@ -32,22 +32,6 @@ find_worktree_for_commit() {
   '
 }
 
-create_worktree_for_branch() {
-  local branch_name="$1"
-  local worktree_path="$ROOT_DIR-${branch_name//\//-}"
-
-  if [[ -e "$worktree_path" ]]; then
-    echo "ERROR: Expected worktree path already exists but is not attached to $branch_name:" >&2
-    echo "  $worktree_path" >&2
-    exit 1
-  fi
-
-  echo "Creating separate worktree for $branch_name:" >&2
-  echo "  $worktree_path" >&2
-  git -C "$ROOT_DIR" worktree add "$worktree_path" "$branch_name" >&2
-  echo "$worktree_path"
-}
-
 if [[ "$CURRENT_BRANCH" != "$TARGET_BRANCH" ]]; then
   if [[ -n "$CURRENT_HEAD" && -n "$TARGET_HEAD" && "$CURRENT_HEAD" == "$TARGET_HEAD" ]]; then
     echo "Current checkout already matches $TARGET_BRANCH at $CURRENT_HEAD"
@@ -60,11 +44,13 @@ if [[ "$CURRENT_BRANCH" != "$TARGET_BRANCH" ]]; then
 
     if [[ -z "$TARGET_WORKTREE" ]]; then
       if git -C "$ROOT_DIR" show-ref --verify --quiet "refs/heads/$TARGET_BRANCH"; then
-        TARGET_WORKTREE="$(create_worktree_for_branch "$TARGET_BRANCH")"
-      else
-        echo "ERROR: Could not find worktree or local branch for $TARGET_BRANCH" >&2
-        exit 1
+        echo "No separate worktree found. Switching current repo to $TARGET_BRANCH."
+        git -C "$ROOT_DIR" checkout "$TARGET_BRANCH"
+        exec "$ROOT_DIR/build-install.sh" "$@"
       fi
+
+      echo "ERROR: Could not find worktree or local branch for $TARGET_BRANCH" >&2
+      exit 1
     fi
 
     echo "Switching to $TARGET_BRANCH worktree:"

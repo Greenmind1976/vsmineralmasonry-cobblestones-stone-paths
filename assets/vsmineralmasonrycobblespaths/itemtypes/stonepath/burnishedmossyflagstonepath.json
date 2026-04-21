@@ -22,7 +22,7 @@
     "base": "game:item/plate"
   },
   "texture": {
-    "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-upface",
+    "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-upface",
     "overlays": [
       "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-r1c3-upface"
     ]

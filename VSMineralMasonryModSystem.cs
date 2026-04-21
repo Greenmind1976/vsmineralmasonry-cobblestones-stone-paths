@@ -10,6 +10,7 @@ public class VSMineralMasonryModSystem : ModSystem
         api.RegisterBlockClass("BlockCobblestoneCycle5x5", typeof(BlockCobblestoneCycle5x5));
         api.RegisterBlockClass("BlockStonePathDecorCycle", typeof(BlockStonePathDecorCycle));
         api.RegisterItemClass("ItemPlaceStonePath", typeof(ItemPlaceStonePath));
+        api.RegisterItemClass("ItemStonePolish", typeof(ItemStonePolish));
         api.RegisterCollectibleBehaviorClass("CycleStonePathDecor", typeof(CollectibleBehaviorCycleStonePathDecor));
     }
 }
