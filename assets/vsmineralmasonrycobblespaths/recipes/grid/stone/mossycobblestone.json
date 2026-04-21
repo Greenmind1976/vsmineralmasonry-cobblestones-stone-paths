@@ -1,0 +1,33 @@
+{
+  "ingredientPattern": "B\nF",
+  "ingredients": {
+    "B": {
+      "type": "block",
+      "code": "vsmineralmasonrycobblespaths:pitchedcobblestone-*-r1c1",
+      "name": "rock",
+      "allowedVariants": [
+        "andesite",
+        "basalt",
+        "chalk",
+        "chert",
+        "granite",
+        "limestone",
+        "phyllite",
+        "shale",
+        "slate",
+        "whitemarble"
+      ]
+    },
+    "F": {
+      "type": "block",
+      "code": "game:forestfloor-*"
+    }
+  },
+  "width": 1,
+  "height": 2,
+  "output": {
+    "type": "block",
+    "code": "vsmineralmasonrycobblespaths:mossycobblestone-{rock}-r1c1",
+    "quantity": 1
+  }
+}

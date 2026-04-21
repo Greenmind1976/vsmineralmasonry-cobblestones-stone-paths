@@ -14,29 +14,5 @@
     "value": {
       "name": "CycleStonePathDecor"
     }
-  },
-  {
-    "file": "game:itemtypes/tool/wrench",
-    "op": "add",
-    "path": "/behaviorsByType/*-iron/-",
-    "value": {
-      "name": "CycleStonePathDecor"
-    }
-  },
-  {
-    "file": "game:itemtypes/tool/wrench",
-    "op": "add",
-    "path": "/behaviorsByType/*-meteoriciron/-",
-    "value": {
-      "name": "CycleStonePathDecor"
-    }
-  },
-  {
-    "file": "game:itemtypes/tool/wrench",
-    "op": "add",
-    "path": "/behaviorsByType/*-steel/-",
-    "value": {
-      "name": "CycleStonePathDecor"
-    }
   }
 ]
