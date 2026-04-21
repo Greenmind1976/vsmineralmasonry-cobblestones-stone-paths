@@ -62,25 +62,25 @@
   "texturesByType": {
     "*": {
       "all": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-upface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-upface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-upface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-upface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-upface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-upface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-upface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-upface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
             ]

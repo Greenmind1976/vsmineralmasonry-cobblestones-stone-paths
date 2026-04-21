@@ -171,25 +171,25 @@
   "texturesByType": {
     "*": {
       "south": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-southface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-southface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-southface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-southface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-southface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-southface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-southface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-southface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
             ]
@@ -197,25 +197,25 @@
         ]
       },
       "north": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-northface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-northface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-northface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-northface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-northface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-northface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-northface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-northface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
             ]
@@ -223,25 +223,25 @@
         ]
       },
       "west": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-westface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-westface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-westface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-westface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-westface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-westface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-westface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-westface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
             ]
@@ -249,25 +249,25 @@
         ]
       },
       "east": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-eastface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-eastface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-eastface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-eastface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-eastface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-eastface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-eastface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-eastface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
             ]
@@ -275,25 +275,25 @@
         ]
       },
       "down": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-downface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-downface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-downface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-downface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-downface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-downface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-downface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-downface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
             ]
@@ -301,25 +301,25 @@
         ]
       },
       "up": {
-        "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}1-upface",
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-upface",
         "overlays": [
           "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
         ],
         "alternates": [
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}2-upface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-upface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}3-upface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-upface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
             ]
           },
           {
-            "base": "vsmineralmasonrycobblespaths:block/stone/muralslab-basefaces-mosscontrast/{rock}4-upface",
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-upface",
             "overlays": [
               "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
             ]
