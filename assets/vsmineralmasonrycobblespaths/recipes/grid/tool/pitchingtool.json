@@ -1,0 +1,33 @@
+{
+  "ingredientPattern": "CH\nC_",
+  "ingredients": {
+    "C": {
+      "type": "item",
+      "code": "game:chisel-*",
+      "name": "metal",
+      "quantity": 1,
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "H": {
+      "type": "item",
+      "code": "game:hammer-*",
+      "isTool": true,
+      "toolDurabilityCost": 1
+    }
+  },
+  "width": 2,
+  "height": 2,
+  "output": {
+    "type": "item",
+    "code": "vsmineralmasonrycobblespaths:pitchingtool-{metal}",
+    "quantity": 1
+  }
+}
