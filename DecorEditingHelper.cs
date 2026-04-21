@@ -56,10 +56,10 @@ public static class DecorEditingHelper
         Block? decor = world.BlockAccessor.GetDecor(pos, exactIndex);
         if (IsEditableDecor(decor))
         {
-            return new DecorTarget { Position = pos.Copy(), DecorIndex = exactIndex, Block = decor };
+            return new DecorTarget { Position = pos.Copy(), DecorIndex = DecorIndexForFace(blockSel), Block = decor };
         }
 
-        int faceIndex = (int)new DecorBits(blockSel.Face);
+        int faceIndex = DecorIndexForFace(blockSel);
         decor = world.BlockAccessor.GetDecor(pos, faceIndex);
         if (IsEditableDecor(decor))
         {
@@ -73,12 +73,17 @@ public static class DecorEditingHelper
             {
                 if (IsEditableDecor(entry.Value) && entry.Key % 6 == blockSel.Face.Index)
                 {
-                    return new DecorTarget { Position = pos.Copy(), DecorIndex = entry.Key, Block = entry.Value };
+                    return new DecorTarget { Position = pos.Copy(), DecorIndex = faceIndex, Block = entry.Value };
                 }
             }
         }
 
         return null;
+    }
+
+    private static int DecorIndexForFace(BlockSelection blockSel)
+    {
+        return blockSel.Face == null ? blockSel.ToDecorIndex() : (int)new DecorBits(blockSel.Face);
     }
 
     private static BlockPos[] CandidatePositions(BlockSelection blockSel)
