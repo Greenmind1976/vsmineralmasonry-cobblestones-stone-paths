@@ -46,6 +46,15 @@ public class BlockStonePathDecorCycle : Block
         BlockPos origin = target.Position;
         bool mirrorColumns = cycleBlock.Attributes?["autoAlignMirrorColumns"].AsBool(false) ?? false;
 
+        Block? originDecor = world.BlockAccessor.GetDecor(origin, target.DecorIndex);
+        if (!IsSameSet(cycleBlock, originDecor) &&
+            !world.BlockAccessor.SetDecor(cycleBlock, origin, target.DecorIndex))
+        {
+            return;
+        }
+
+        RemoveDuplicatePathDecors(world, origin, target.DecorIndex, cycleBlock);
+
         for (int rowOffset = -RowOrigin; rowOffset < Rows - RowOrigin; rowOffset++)
         {
             for (int colOffset = -ColumnOrigin; colOffset < Columns - ColumnOrigin; colOffset++)
@@ -62,12 +71,12 @@ public class BlockStonePathDecorCycle : Block
                     : colOffset + ColumnOrigin + 1;
                 string tile = $"r{rowOffset + RowOrigin + 1}c{column}";
                 Block? mapped = world.GetBlock(decor.CodeWithParts(tile));
-                if (mapped == null || mapped.Id == 0 || mapped.Id == decor.Id)
+                if (mapped != null && mapped.Id != 0 && mapped.Id != decor.Id)
                 {
-                    continue;
+                    world.BlockAccessor.SetDecor(mapped, targetPos, target.DecorIndex);
                 }
 
-                world.BlockAccessor.SetDecor(mapped, targetPos, target.DecorIndex);
+                RemoveDuplicatePathDecors(world, targetPos, target.DecorIndex, cycleBlock);
             }
         }
     }
