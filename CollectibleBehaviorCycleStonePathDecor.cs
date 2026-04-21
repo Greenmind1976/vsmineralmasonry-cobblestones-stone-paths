@@ -33,14 +33,9 @@ public class CollectibleBehaviorCycleStonePathDecor : CollectibleBehavior
 
         if (collObj.Tool == EnumTool.Wrench)
         {
-            if (byEntity.World.Side != EnumAppSide.Server)
-            {
-                handHandling = EnumHandHandling.Handled;
-                handling = EnumHandling.PreventDefault;
-                return;
-            }
-
-            changed = BlockStonePathDecorCycle.TryCycleDecor(byEntity.World, target);
+            handHandling = EnumHandHandling.Handled;
+            handling = EnumHandling.PreventDefault;
+            return;
         }
         else if (collObj.Tool == EnumTool.Hammer)
         {
