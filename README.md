@@ -8,6 +8,7 @@ Standalone Vintage Story mod for the decorative pathing and cobblestone set from
 - Burnished flagstone paths
 - Mossy flagstone paths
 - Pitched cobblestone
+- Pitching tool, which can also be used anywhere a normal chisel can be used
 - Stone path placement and cycling helpers
 
 ## Build
