@@ -1,49 +1,205 @@
-{
-  "ingredientPattern": "H\nT\nC",
-  "ingredients": {
-    "T": {
-      "type": "item",
-      "code": "game:chisel-*",
-      "name": "metal",
-      "isTool": true,
-      "toolDurabilityCost": 1,
-      "allowedVariants": [
-        "copper",
-        "tinbronze",
-        "bismuthbronze",
-        "blackbronze",
-        "iron",
-        "meteoriciron",
-        "steel"
-      ]
+[
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-copper",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-copper",
+        "quantity": 1
+      }
     },
-    "C": {
+    "width": 1,
+    "height": 3,
+    "output": {
       "type": "item",
-      "code": "game:chisel-*",
-      "name": "metal",
-      "quantity": 1,
-      "allowedVariants": [
-        "copper",
-        "tinbronze",
-        "bismuthbronze",
-        "blackbronze",
-        "iron",
-        "meteoriciron",
-        "steel"
-      ]
-    },
-    "H": {
-      "type": "item",
-      "code": "game:hammer-*",
-      "isTool": true,
-      "toolDurabilityCost": 1
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-copper",
+      "quantity": 1
     }
   },
-  "width": 1,
-  "height": 3,
-  "output": {
-    "type": "item",
-    "code": "vsmineralmasonrycobblespaths:pitchingtool-{metal}",
-    "quantity": 1
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-tinbronze",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-tinbronze",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-tinbronze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-bismuthbronze",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-bismuthbronze",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-bismuthbronze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-blackbronze",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-blackbronze",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-blackbronze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-iron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-iron",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-iron",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-meteoriciron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-meteoriciron",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-meteoriciron",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "H\nT\nC",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:chisel-steel",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-steel",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "vsmineralmasonrycobblespaths:pitchingtool-steel",
+      "quantity": 1
+    }
   }
-}
+]
