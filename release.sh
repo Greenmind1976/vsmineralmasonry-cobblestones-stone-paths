@@ -30,6 +30,7 @@ if [[ -z "$VERSION" ]]; then
 fi
 
 echo "Building $PROJECT_NAME $VERSION"
+rm -rf "$ROOT_DIR/bin" "$ROOT_DIR/obj"
 dotnet build "$PROJECT_PATH" -c Release -p:NuGetAudit=false
 
 if [[ ! -f "$MOD_OUTPUT_DIR/$PROJECT_NAME.dll" ]]; then

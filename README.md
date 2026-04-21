@@ -1,14 +1,23 @@
 # VSMineralMasonry - Cobblestones and Stone Paths
 
-Standalone Vintage Story mod for the decorative pathing and cobblestone set from VSMineralMasonry.
+`VSMineralMasonry - Cobblestones and Stone Paths` is a surface-detail mod built around outdoor finish work.
 
-## Included Content
+It focuses on ground texture, walkways, and low-profile decorative stone treatment so you can make roads, courtyards, gardens, ruins, and settlement spaces feel more intentional than plain packed dirt or raw stone.
+
+## What It Adds
 
 - Burnished cobblestone decor
 - Burnished flagstone paths
 - Mossy flagstone paths
 - Pitched cobblestone
 - Stone path placement and cycling helpers
+
+## Best Use Cases
+
+- Laying roads, plazas, courtyards, and garden paths
+- Mixing clean and mossy variants for age and wear
+- Adding decorative stone surfaces without bulky full blocks
+- Refining settlement spaces with faster placement and cycling tools
 
 ## Build
 

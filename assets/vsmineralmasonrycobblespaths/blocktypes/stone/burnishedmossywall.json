@@ -1,0 +1,353 @@
+{
+  "code": "burnishedmossywall",
+  "class": "BlockCobblestoneCycle",
+  "replaceable": 120,
+  "blockmaterial": "Stone",
+  "storageFlags": 5,
+  "variantgroups": [
+    {
+      "code": "rock",
+      "states": [
+        "andesite",
+        "basalt",
+        "chalk",
+        "chert",
+        "granite",
+        "limestone",
+        "phyllite",
+        "shale",
+        "slate",
+        "whitemarble"
+      ]
+    },
+    {
+      "code": "tile",
+      "states": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r3c1",
+        "r3c2",
+        "r3c3"
+      ]
+    }
+  ],
+  "attributes": {
+    "canChisel": true,
+    "handbook": {
+      "groupBy": [
+        "burnishedmossywall-{rock}"
+      ]
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*-andesite-r1c1",
+      "*-basalt-r1c1",
+      "*-chalk-r1c1",
+      "*-chert-r1c1",
+      "*-granite-r1c1",
+      "*-limestone-r1c1",
+      "*-phyllite-r1c1",
+      "*-shale-r1c1",
+      "*-slate-r1c1",
+      "*-whitemarble-r1c1"
+    ],
+    "construction": [
+      "*-andesite-r1c1",
+      "*-basalt-r1c1",
+      "*-chalk-r1c1",
+      "*-chert-r1c1",
+      "*-granite-r1c1",
+      "*-limestone-r1c1",
+      "*-phyllite-r1c1",
+      "*-shale-r1c1",
+      "*-slate-r1c1",
+      "*-whitemarble-r1c1"
+    ]
+  },
+  "shape": {
+    "base": "game:block/basic/cube"
+  },
+  "drawtype": "cube",
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldRightReadyAnimation": "heldblockready",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "allowedVariants": [
+    "burnishedmossywall-andesite-r1c1",
+    "burnishedmossywall-andesite-r1c2",
+    "burnishedmossywall-andesite-r1c3",
+    "burnishedmossywall-andesite-r2c1",
+    "burnishedmossywall-andesite-r2c2",
+    "burnishedmossywall-andesite-r2c3",
+    "burnishedmossywall-andesite-r3c1",
+    "burnishedmossywall-andesite-r3c2",
+    "burnishedmossywall-andesite-r3c3",
+    "burnishedmossywall-basalt-r1c1",
+    "burnishedmossywall-basalt-r1c2",
+    "burnishedmossywall-basalt-r1c3",
+    "burnishedmossywall-basalt-r2c1",
+    "burnishedmossywall-basalt-r2c2",
+    "burnishedmossywall-basalt-r2c3",
+    "burnishedmossywall-basalt-r3c1",
+    "burnishedmossywall-basalt-r3c2",
+    "burnishedmossywall-basalt-r3c3",
+    "burnishedmossywall-chalk-r1c1",
+    "burnishedmossywall-chalk-r1c2",
+    "burnishedmossywall-chalk-r1c3",
+    "burnishedmossywall-chalk-r2c1",
+    "burnishedmossywall-chalk-r2c2",
+    "burnishedmossywall-chalk-r2c3",
+    "burnishedmossywall-chalk-r3c1",
+    "burnishedmossywall-chalk-r3c2",
+    "burnishedmossywall-chalk-r3c3",
+    "burnishedmossywall-chert-r1c1",
+    "burnishedmossywall-chert-r1c2",
+    "burnishedmossywall-chert-r1c3",
+    "burnishedmossywall-chert-r2c1",
+    "burnishedmossywall-chert-r2c2",
+    "burnishedmossywall-chert-r2c3",
+    "burnishedmossywall-chert-r3c1",
+    "burnishedmossywall-chert-r3c2",
+    "burnishedmossywall-chert-r3c3",
+    "burnishedmossywall-granite-r1c1",
+    "burnishedmossywall-granite-r1c2",
+    "burnishedmossywall-granite-r1c3",
+    "burnishedmossywall-granite-r2c1",
+    "burnishedmossywall-granite-r2c2",
+    "burnishedmossywall-granite-r2c3",
+    "burnishedmossywall-granite-r3c1",
+    "burnishedmossywall-granite-r3c2",
+    "burnishedmossywall-granite-r3c3",
+    "burnishedmossywall-limestone-r1c1",
+    "burnishedmossywall-limestone-r1c2",
+    "burnishedmossywall-limestone-r1c3",
+    "burnishedmossywall-limestone-r2c1",
+    "burnishedmossywall-limestone-r2c2",
+    "burnishedmossywall-limestone-r2c3",
+    "burnishedmossywall-limestone-r3c1",
+    "burnishedmossywall-limestone-r3c2",
+    "burnishedmossywall-limestone-r3c3",
+    "burnishedmossywall-phyllite-r1c1",
+    "burnishedmossywall-phyllite-r1c2",
+    "burnishedmossywall-phyllite-r1c3",
+    "burnishedmossywall-phyllite-r2c1",
+    "burnishedmossywall-phyllite-r2c2",
+    "burnishedmossywall-phyllite-r2c3",
+    "burnishedmossywall-phyllite-r3c1",
+    "burnishedmossywall-phyllite-r3c2",
+    "burnishedmossywall-phyllite-r3c3",
+    "burnishedmossywall-shale-r1c1",
+    "burnishedmossywall-shale-r1c2",
+    "burnishedmossywall-shale-r1c3",
+    "burnishedmossywall-shale-r2c1",
+    "burnishedmossywall-shale-r2c2",
+    "burnishedmossywall-shale-r2c3",
+    "burnishedmossywall-shale-r3c1",
+    "burnishedmossywall-shale-r3c2",
+    "burnishedmossywall-shale-r3c3",
+    "burnishedmossywall-slate-r1c1",
+    "burnishedmossywall-slate-r1c2",
+    "burnishedmossywall-slate-r1c3",
+    "burnishedmossywall-slate-r2c1",
+    "burnishedmossywall-slate-r2c2",
+    "burnishedmossywall-slate-r2c3",
+    "burnishedmossywall-slate-r3c1",
+    "burnishedmossywall-slate-r3c2",
+    "burnishedmossywall-slate-r3c3",
+    "burnishedmossywall-whitemarble-r1c1",
+    "burnishedmossywall-whitemarble-r1c2",
+    "burnishedmossywall-whitemarble-r1c3",
+    "burnishedmossywall-whitemarble-r2c1",
+    "burnishedmossywall-whitemarble-r2c2",
+    "burnishedmossywall-whitemarble-r2c3",
+    "burnishedmossywall-whitemarble-r3c1",
+    "burnishedmossywall-whitemarble-r3c2",
+    "burnishedmossywall-whitemarble-r3c3"
+  ],
+  "texturesByType": {
+    "*": {
+      "south": {
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-southface",
+        "overlays": [
+          "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
+        ],
+        "alternates": [
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-southface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-southface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-southface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-southface"
+            ]
+          }
+        ]
+      },
+      "north": {
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-northface",
+        "overlays": [
+          "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
+        ],
+        "alternates": [
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-northface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-northface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-northface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-northface"
+            ]
+          }
+        ]
+      },
+      "west": {
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-westface",
+        "overlays": [
+          "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
+        ],
+        "alternates": [
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-westface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-westface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-westface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-westface"
+            ]
+          }
+        ]
+      },
+      "east": {
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-eastface",
+        "overlays": [
+          "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
+        ],
+        "alternates": [
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-eastface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-eastface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-eastface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-eastface"
+            ]
+          }
+        ]
+      },
+      "down": {
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-downface",
+        "overlays": [
+          "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
+        ],
+        "alternates": [
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-downface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-downface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-downface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-downface"
+            ]
+          }
+        ]
+      },
+      "up": {
+        "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}1-upface",
+        "overlays": [
+          "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
+        ],
+        "alternates": [
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}2-upface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}3-upface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
+            ]
+          },
+          {
+            "base": "vsmineralmasonrycobblespaths:block/stone/rockbasefaces-mosscontrast/{rock}4-upface",
+            "overlays": [
+              "vsmineralmasonrycobblespaths:block/stone/burnishedmossywall/{rock}-{tile}-upface"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sounds": {
+    "walk": "walk/stone",
+    "byTool": {
+      "Pickaxe": {
+        "hit": "block/rock-hit-pickaxe",
+        "break": "block/rock-break-pickaxe"
+      }
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.23,
+      "y": -0.91,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": -2,
+      "y": 25,
+      "z": -78
+    },
+    "scale": 0.4
+  }
+}
