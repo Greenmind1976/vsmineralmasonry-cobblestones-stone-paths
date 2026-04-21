@@ -1,7 +1,7 @@
 {
   "ingredient": {
     "type": "item",
-    "code": "ingot-*",
+    "code": "survival:ingot-*",
     "name": "metal",
     "allowedVariants": [
       "copper",
