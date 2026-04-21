@@ -39,7 +39,7 @@ Create a distributable zip with:
 
 ## Local Install
 
-Install the built mod into your local Vintage Story app with:
+Install the built mod into your local Vintage Story 1.21.7 app with:
 
 ```bash
 ./build-install.sh
