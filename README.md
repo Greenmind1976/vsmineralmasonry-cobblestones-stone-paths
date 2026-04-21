@@ -10,6 +10,7 @@ It focuses on ground texture, walkways, and low-profile decorative stone treatme
 - Burnished flagstone paths
 - Mossy flagstone paths
 - Pitched cobblestone
+- Pitching tool, which can also be used anywhere a normal chisel can be used
 - Stone path placement and cycling helpers
 
 ## Best Use Cases
@@ -17,6 +18,7 @@ It focuses on ground texture, walkways, and low-profile decorative stone treatme
 - Laying roads, plazas, courtyards, and garden paths
 - Mixing clean and mossy variants for age and wear
 - Adding decorative stone surfaces without bulky full blocks
+- Using the pitching tool for burnished stone work or as a regular chisel when needed
 - Refining settlement spaces with faster placement and cycling tools
 
 ## Build
