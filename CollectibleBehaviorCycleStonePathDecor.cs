@@ -23,13 +23,10 @@ public class CollectibleBehaviorCycleStonePathDecor : CollectibleBehavior
             return;
         }
 
-        DecorEditingHelper.DecorTarget? target = DecorEditingHelper.GetSelectedDecor(byEntity.World, blockSel);
-        if (target?.Block is not BlockStonePathDecorCycle)
+        if (!DecorEditingHelper.HasEditableDecorNearSelection(byEntity.World, blockSel))
         {
             return;
         }
-
-        bool changed = false;
 
         if (collObj.Tool == EnumTool.Wrench)
         {
@@ -37,23 +34,17 @@ public class CollectibleBehaviorCycleStonePathDecor : CollectibleBehavior
             handling = EnumHandling.PreventDefault;
             return;
         }
-        else if (collObj.Tool == EnumTool.Hammer)
-        {
-            if (byEntity.World.Side != EnumAppSide.Server)
-            {
-                handHandling = EnumHandHandling.Handled;
-                handling = EnumHandling.PreventDefault;
-                return;
-            }
 
-            BlockStonePathDecorCycle.AutoAlignDecor3x3(byEntity.World, target);
-            changed = true;
-        }
-
-        if (changed)
+        if (collObj.Tool == EnumTool.Hammer)
         {
             handHandling = EnumHandHandling.Handled;
             handling = EnumHandling.PreventDefault;
+
+            DecorEditingHelper.DecorTarget? target = DecorEditingHelper.GetSelectedDecor(byEntity.World, blockSel);
+            if (byEntity.World.Side == EnumAppSide.Server && target?.Block is BlockStonePathDecorCycle)
+            {
+                BlockStonePathDecorCycle.AutoAlignDecor3x3(byEntity.World, target);
+            }
         }
     }
 }

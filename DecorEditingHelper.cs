@@ -45,6 +45,46 @@ public static class DecorEditingHelper
         return block is BlockStonePathDecorCycle;
     }
 
+    public static bool HasEditableDecorNearSelection(IWorldAccessor world, BlockSelection? blockSel)
+    {
+        if (blockSel == null || blockSel.Position == null)
+        {
+            return false;
+        }
+
+        try
+        {
+            foreach (BlockPos pos in CandidatePositions(blockSel))
+            {
+                for (int decorIndex = 0; decorIndex < 6; decorIndex++)
+                {
+                    if (IsEditableDecor(world.BlockAccessor.GetDecor(pos, decorIndex)))
+                    {
+                        return true;
+                    }
+                }
+
+                var subDecors = world.BlockAccessor.GetSubDecors(pos);
+                if (subDecors != null)
+                {
+                    foreach (var entry in subDecors)
+                    {
+                        if (IsEditableDecor(entry.Value))
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return false;
+        }
+
+        return false;
+    }
+
     private static DecorTarget? GetSelectedDecorAt(IWorldAccessor world, BlockPos pos, BlockSelection blockSel)
     {
         if (blockSel.Face == null)
